@@ -1,0 +1,38 @@
+header {
+	background: gray;
+	border: black solid 1px;
+	border-radius: 10px;
+	margin: auto;
+	width: 200px;
+}
+
+main {
+	background: white;
+	border: black solid 1px;
+	margin: 0.5rem auto;
+	width: 700px;
+}
+
+a:visited {
+  color: blue;
+}
+
+.one{
+  font-style: italic;
+}
+
+h2:target::before {
+  content: "\2192";
+}
+
+p:first-of-type::first-line {
+  font-style: italic;
+}
+
+div:first-of-type::first-letter {
+  font-size: xx-large;
+}
+
+.margin{
+	margin: 0px 0px 0px 70px;
+}
